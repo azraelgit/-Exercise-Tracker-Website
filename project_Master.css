@@ -1,0 +1,114 @@
+/* 22079916, Charles Buenaventura, 13:00 Thursday */
+
+*{
+    font-family: Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header {
+	padding: 40px; 
+	text-align: center;
+	font-size: 100%;
+    background-color:#00A86B; /*jade green*/
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	/* space for each link in header */
+	margin-right: 20px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav > ul,
+nav > ul > li {
+	display: inline-block;
+}
+
+nav strong {
+	color: white;
+	margin-right: 20px;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+}
+
+h2 { 
+	padding: 10px;
+}
+
+p {
+	font-size: 100%;
+}
+
+.infoText {
+	padding: 10px;
+}
+
+form {
+	width: 85%;
+	background-color: #A8E4A0; /*apple green*/
+	padding: 30px;
+	margin: 0 auto; 
+	line-height: 2; 
+	border-radius: 8px; /*round ish edges*/
+}
+
+/*form inputs*/
+label,
+input[type="text"],
+input[type="password"] {
+	display: inline-block; 
+	width: 45%; 
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	width: auto;
+	background-color: #0b6623; /*dark green*/
+	color: #e6f9ff;
+	border-radius: 5px;
+	padding: 10px;
+	
+}
+
+.errorMessage {
+	font-weight: bold;
+	font-size: 100%;
+	color: red;
+	margin: 0 auto;
+	display: none; /*hide error until the form is submitted w/ invalid inputs*/
+}
+
+img {
+	width: 120px;
+	height: auto;
+}
+
+.tableStyle {
+	text-align: center;
+	width: 80%;
+}
+
+@media only screen and (max-width: 1366px) {
+	form {
+		width: 90%;
+		padding: 20px;
+	}
+	
+	img {
+		width: 70px;
+		height: auto;
+	}
+}
+
+
+
